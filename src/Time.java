@@ -1,6 +1,4 @@
 public interface Time {
-    int getHour();
-    int getMinute();
-    void setTime(int hour, int minute) throws TimeException;
-    void vpered(int hour, int minute) throws TimeException;
+    public void setTime(TypeTime type,int time ) throws TimeException;
+    void move_forward(TypeTime type, int time) throws TimeException;
 }
