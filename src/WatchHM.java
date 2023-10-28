@@ -42,6 +42,10 @@ public class WatchHM extends Watch implements Time{
         }
     }
 
+    @Override
+    public void get_time() {
+        System.out.println(hour+" : "+minute);
+    }
 
 
     public int getHour() {

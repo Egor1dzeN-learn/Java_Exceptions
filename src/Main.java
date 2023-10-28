@@ -48,5 +48,10 @@ public class Main {
         catch (TimeException te){
             System.out.println(te.getMessage());
         }
+        try{
+            watchHM.move_forward(TypeTime.HOUR, -12);
+        }catch (TimeException te){
+            System.out.println(te.getMessage());
+        }
     }
 }

@@ -13,6 +13,10 @@ public class WatchHMS extends WatchHM {
     public void setSecond(int second) {
         this.second = second;
     }
+    @Override
+    public void get_time() {
+        System.out.println(hour+" : "+minute);
+    }
 
     @Override
     public void setTime(TypeTime type, int time) throws TimeException {
